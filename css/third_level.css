@@ -1,0 +1,17 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f7fc;
+    padding: 0.5%;
+}
+
+#header {
+    background-color: #fff;
+    width: 200px;
+    padding-left: 1%;
+}
+
+#article1 {
+    width: 130px;
+    padding: 1px;
+    border: 2px black solid;
+}

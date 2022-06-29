@@ -1,0 +1,11 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f7fc;
+    padding: 0.5%;
+}
+
+#header {
+    background-color: #fff;
+    width: 200px;
+    padding-left: 1%;
+}
