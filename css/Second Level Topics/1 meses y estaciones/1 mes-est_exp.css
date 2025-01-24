@@ -1,0 +1,273 @@
+ /* menu, header */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');/*FTipografía Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Water+Brush&display=swap'); /*FTipografía general*/
+
+:root{ /*Variables colores*/
+    --Azul-oscurito:#0367A6;
+    --Azul-claro: #29A7D9;
+    --Verde: #A8F25E;
+    --Amarillo: #F2E966;
+    --Blanco-gris: #F2F2F2; 
+    --Morado: #523b72;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    background: radial-gradient(circle, rgba(195,227,253,1) 90%, rgba(255,255,255,1));
+    display: flex;   
+    width: 100vw;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    overflow-x:hidden ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #417c4b;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+.header{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: center;
+    min-height: 3000px;
+    min-width: 290px;
+    background: #fff;
+    margin-right: 20px;
+    /* posible bg-color:rgb(157, 211, 245) */
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.header-logo{
+    width: 250px;
+    margin-top: -10px;
+}
+
+.nav__item{
+    display: block;
+    margin: 10px;
+    transition: all .05s; 
+    
+}
+
+.nav__item:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+.nav__item:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+
+
+.nav__item:hover {
+    border-radius: 18px;
+    background-color: steelblue;
+    outline: 10px solid steelblue;
+}
+
+
+
+.hr {
+    width: 150px;
+    margin: auto;  
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgb(46, 147, 218);
+    padding: bottom 1px;
+}
+
+
+
+.nav-redes {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.nav-redes__item{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.nav-redes__item-logo {
+    width: 60px;
+    height:60px;
+}
+
+.nav-redes__item-logo--youtube{
+    width: 80px;
+    margin-left: -10px;
+}
+
+.content {
+    width: 100px;
+    flex-grow: 1;
+    margin: black;
+    display: flex;
+    flex-direction: column; 
+    min-width: 400px;
+    height:2700px;
+}
+
+/* fin menu, header */
+
+.main {
+    margin:15px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+
+.h1-title {
+    align-self: center;
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.h2-title {
+    align-self: center;
+}
+
+.hr-main {
+    width: 800px;
+    margin: auto;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: bottom 1px;
+}
+
+
+.parrafo-exp {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.contenedor-mesesyestaciones {
+    width: 70vw;
+    margin: 30px;
+    background-color: rgba(51, 51, 51, 0.18);
+    border: 5px hidden black;
+    border-radius: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mesesyestaciones{
+    display:flex;
+    border-radius: 30px;
+    margin: 30px 15px;
+    height: 650px;
+
+}
+
+
+.mesesyestaciones__spring {
+    background-color: rgb(0, 190, 0);
+    height: 500px;
+}
+
+.mesesyestaciones__summer{
+    background-color: #f0e43b;
+    height: 600px;
+}
+.mesesyestaciones__fall{
+    background-color: orange;
+    height: 500px;
+}
+.mesesyestaciones__winter{
+    background-color: var(--Azul-claro);
+}
+
+.mesesyestaciones_text{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.mesesyestaciones-img{
+    display: flex;
+    margin: 0px 15px;
+    align-self: center;
+    object-fit:contain;
+    justify-content: center;
+    height: 600px;
+    width: 35%;
+    object-fit:contain;
+    
+
+    
+}
+
+.mesesyestaciones-img__img{
+    height: 100%;
+    width: 100%;
+}
+
+.traduccion-seasons {
+    color: #fff;
+}
+
+.parrafo-seasons {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.mesesyestaciones_text--right {
+    justify-content: right;
+}
+
+
+.contenedor-meses{
+    display: flex;
+    justify-content: center;
+}
+
+.mes {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 15px 20px;
+    background-color: rgba(51, 51, 51, 0.295);
+}

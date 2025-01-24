@@ -1,0 +1,315 @@
+/* menu, header */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap'); /*FTipografía Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Water+Brush&display=swap'); /*FTipografía general*/
+
+:root{ /*Variables colores*/
+    --Azul-oscurito:#0367A6;
+    --Azul-claro: #29A7D9;
+    --Verde: #A8F25E;
+    --Amarillo: #F2E966;  
+    --Blanco-gris: #F2F2F2;
+    --Morado: #523b72;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, #c3e3fd 90%, rgba(255,255,255,1));
+    display: flex;   
+    width: 100vw;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    overflow-x:hidden ;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #417c4b; 
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.header{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: center;
+    min-height: 2000px;
+    min-width: 290px;
+    background: #fff;
+    margin-right: 20px;
+    /* posible bg-color:rgb(157, 211, 245) */
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.header-logo{
+    width: 250px;
+    margin-top: -10px;
+    
+}
+
+.nav__item{
+    display: block;
+    margin: 10px;
+    transition: all .05s; 
+    
+}
+
+.nav__item:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+.nav__item:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+
+
+.nav__item:hover {
+    border-radius: 18px;
+    background-color: steelblue;
+    outline: 10px solid steelblue;
+}
+
+
+
+.hr {
+    width: 150px;
+    margin: auto;  
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgb(46, 147, 218);
+    padding: bottom 1px;
+}
+
+
+
+.nav-redes {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.nav-redes__item{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.nav-redes__item-logo {
+    width: 60px;
+    height:60px;
+}
+
+.nav-redes__item-logo--youtube{
+    width: 80px;
+    margin-left: -10px;
+}
+
+.content {
+    width: 100px;
+    flex-grow: 1;
+    margin: black;
+    display: flex;
+    flex-direction: column; 
+    min-width: 400px;
+    height: 2000px;
+}
+
+/* fin menu, header */
+
+.main {
+    margin:15px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+
+.div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    flex-direction: column;
+}
+
+.div1__h2-title {
+    margin-top: -30px;
+}
+
+.div1__hr-main{
+    width: 50em;
+    height: 5px;
+    text-align: center;
+    margin-top:  10px;
+    margin-bottom: 15px;
+    background-color: #2b7abc;
+    border: black hidden;
+    border-radius: 40px;
+}
+
+.parrafo-alfabeto{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    text-align: justify;
+    padding-right: 1%;
+}
+
+.img-vowels{
+    display: flex;
+    margin: 1em;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.img-vowels__img{
+    height: 400px;
+    width: 400px;
+}
+
+.timothee{
+    object-fit:contain;
+    height: 100%;
+    width: 100%;
+}
+ 
+.img-vowels__vowels {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    margin-right: 15px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.img-vowels__vowels__parrafo{
+    margin-top: 10px;
+}
+
+.img-vowels__vowels__button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.img-vowels__vowels__button-container__boton{
+    margin: 0px 15px;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    clip-path: circle(50% at 50% 50%);
+    border: transparent;
+}
+.img-vowels__vowels__button-container__boton--A{
+    background-color: var(--Azul-oscurito);
+}
+
+.img-vowels__vowels__button-container__boton--E{
+    background-color: var(--Azul-claro);
+}
+
+.img-vowels__vowels__button-container__boton--I{
+    background-color: var(--Verde);
+}
+
+.img-vowels__vowels__button-container__boton--O{
+    background-color: var(--Amarillo);
+}
+
+.img-vowels__vowels__button-container__boton--U{
+    background-color: var(--Morado);
+}
+
+.div-2{
+    align-items: baseline;
+}
+
+.contenedor-abecedario{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.abecedario {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(41, 167, 217, 0.186);
+    border: black hidden 1px;
+    border-radius: 30px;
+}
+
+.abecedario__letter-pronunciation--2{
+    order: 1 ;
+}
+
+.hrEJEMPLO{
+    border: none;
+    border-left: 3px solid #333;
+    height:         750px;
+    width:          1px;   
+}
+
+.abecedario__letter-pronunciation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+    height: 45px;
+    border: 4px solid #333;
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+.abecedario__letter-pronunciation__letter {
+    margin-top: 19px;
+}
+
+
+.abecedario__letter-pronunciation__pronunciation{
+    margin-top: 25px;
+    margin-bottom: 6px;
+    text-align: center;
+    border: 5px hidder white;
+    border-radius: 20px;
+    width: 80px;
+    background: var(--Amarillo);
+    padding: 2px;
+}
+
+.abecedario__letter-pronunciation__pronunciation:active{
+    background: rgb(189, 186, 186);
+}
+
+

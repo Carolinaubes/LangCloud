@@ -1,0 +1,219 @@
+/* menu, header */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');/*FTipografía Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Water+Brush&display=swap'); /*FTipografía general*/
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    background: radial-gradient(circle, rgba(195,227,253,1) 90%, rgba(255,255,255,1));
+    display: flex;   
+    width: 100vw;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    overflow-x:hidden ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #417c4b;
+}
+
+
+.header{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: center;
+    /* outline: 10px solid red; */
+    min-height: 100vh;
+    min-width: 290px;
+    background: #fff; /* 6eb8f5 */
+    margin-right: 20px;
+    /* posible bg-color:rgb(157, 211, 245) */
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.header-logo{
+    width: 250px;
+    margin-top: -10px;
+
+}
+
+.nav__item{
+    display: block;
+    margin: 10px;
+    transition: all .05s;
+    
+}
+
+.nav__item:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+.nav__item:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+
+.nav__item:hover {
+    border-radius: 18px;
+    background-color: steelblue;
+    outline: 10px solid steelblue;
+}
+
+.hr {
+    width: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgb(46, 147, 218);
+    padding: bottom 1px;
+}
+
+.nav-redes {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.nav-redes__item{
+    height: 60px;
+    width: 60px;
+
+}
+
+.nav-redes__item-logo {
+    width: 60px;
+    height:60px;
+}
+
+.nav-redes__item-logo--youtube{
+    width: 80px;
+    margin-left: -10px;
+}
+
+ .content {
+    width: 100px;
+    flex-grow: 1;
+    margin: black;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+/* fin menu, header */
+.main {
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hr__main{
+    width: 50em;
+    height: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: #2b7abc;
+    border: black;
+}
+ 
+.main__img-message {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* outline: 5px solid black; */
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+
+.div-timothee{
+    height: 330px;
+    width: 300px;
+    margin-right: 35px;
+}
+
+.timothee{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.div-message {
+    border: 5px solid #2b7abc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #6eb8f5;
+}
+
+
+.div-message__text{
+    font-size: 30px;    
+}
+
+.button__sound{
+    font-size: 20px;
+    background-color: #2b7bbc6a;
+    border-style:hidden;
+}
+
+.main__level-button {
+    /* outline: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.level-item {
+    margin-right: 35px;
+    border-width: 10px ;
+    border-style: ridge;
+    border-radius: 10em;
+    padding: 10px;
+    background: linear-gradient(90deg, #0367A6, #29A7D9, #29A7D9);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.705);
+}
+
+.level-item:hover{
+    border-color: #523b72 ;
+}
+
+.link__button{
+    border: 0px ; 
+    background: linear-gradient(90deg, #0367A6, #29A7D9, #29A7D9);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* hola{ 
+    color:#0367A6; Azul oscurito
+    color: #29A7D9; Azul claro
+    color:#A8F25E; Verde
+    color:#F2E966; Amarillo 
+    color: #F2F2F2; Blanco gris
+    color:#523b72; morado
+ } */

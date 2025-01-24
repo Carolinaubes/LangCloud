@@ -1,0 +1,1 @@
+const words =['colors', 'emotions', 'sensations','sensations', 'Yellow', 'Blue', 'Red', 'Secondarycolors', 'orange', 'Green', 'Purple', 'Black', 'White', 'Gray', 'Brown', 'Silver', 'Gold', 'Pink', 'Turquoise'];

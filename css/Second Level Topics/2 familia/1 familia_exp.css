@@ -1,0 +1,238 @@
+ /* menu, header */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');/*FTipografía Títulos */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Water+Brush&display=swap'); /*FTipografía general*/
+
+:root{ /*Variables colores*/
+    --Azul-oscurito:#0367A6;
+    --Azul-claro: #29A7D9;
+    --Verde: #A8F25E;
+    --Amarillo: #F2E966;   
+    --Blanco-gris: #F2F2F2;
+    --Morado: #523b72;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    background: radial-gradient(circle, rgba(195,227,253,1) 90%, rgba(255,255,255,1));
+    display: flex;   
+    width: 100vw;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    overflow-x:hidden ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #417c4b;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.header{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: center;
+    min-height: 1580px;
+    min-width: 290px;
+    background: #fff; /* 6eb8f5 */
+    margin-right: 20px;
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.header-logo{
+    width: 250px;
+    margin-top: -10px;
+
+}
+
+.nav__item{
+    display: block;
+    margin: 10px;
+    transition: all .05s;
+    
+}
+
+
+
+.nav__item:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+.nav__item:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+
+
+.nav__item:hover {
+    border-radius: 18px;
+    background-color: steelblue;
+    outline: 10px solid steelblue;
+}
+
+
+
+.hr {
+    width: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid rgb(46, 147, 218);
+    padding: bottom 1px;
+}
+
+
+
+.nav-redes {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.nav-redes__item{
+    height: 60px;
+    width: 60px;
+
+}
+
+.nav-redes__item-logo {
+    width: 60px;
+    height:60px;
+}
+
+.nav-redes__item-logo--youtube{
+    width: 80px;
+    margin-left: -10px;
+}
+
+.content {
+    width: 100px;
+    flex-grow: 1;
+    margin: black;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+/* fin menu, header */
+
+.main {
+    margin:15px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+
+.h1-title {
+    align-self: center;
+    margin: 1px;
+    margin-top: 10px;
+}
+
+.h2-title {
+    align-self: center;
+}
+
+.hr-main {
+    display: inline-block;
+    width: 800px;
+    height: 5px;
+    margin: 0 ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-self: center;
+    background-color: #2b7abc;
+    border: black hidden;
+    border-radius: 40px;
+}
+
+.traduccion {
+    align-self: center;
+}
+
+.parrafo-exp {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.contenedor-familia{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contenedor-4 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.familia-integrante{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 45px;
+    background-color: #523b72b1;
+    border-radius: 40px;
+    transition: outline .6s, background .6s;
+
+}
+.familia-integrante:hover{
+    outline: 25px solid #523b72;
+    background-color: #523b72;
+}
+.img-contenedor{
+    object-fit: contain;
+    height: 120px;
+    width: 120px;
+    align-self: center;
+    padding: 10px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
